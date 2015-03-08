@@ -14,7 +14,7 @@
         "jobRebroadcastTimeout": 55,
         "connectionTimeout": 600,
         "emitInvalidBlockHashes": false,
-        "validateWorkerUsername": true,
+        "validateWorkerUsername": false,
         "tcpProxyProtocol": false,
         "banning": {
             "enabled": true,
@@ -36,7 +36,7 @@
         "stratumHost": "cryppit.com",
         "stats": {
             "updateInterval": 60,
-            "historicalRetention": 43200,
+            "historicalRetention": 86400,
             "hashrateWindow": 300
         },
         "adminCenter": {
